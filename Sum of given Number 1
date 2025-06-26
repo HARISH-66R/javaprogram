@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+        Scanner ro=new Scanner(System.in);
+        int num,sum=0;
+        do{
+            num=ro.nextInt();
+            sum=sum+num;
+        }
+        while(num!=-1);
+        
+        System.out.println(sum+1);
+            
+        
+    }
+}
