@@ -1,0 +1,49 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+	{
+	Scanner ro =new Scanner(System.in);
+	int r1=ro.nextInt();
+		int c1=ro.nextInt();
+		int a[][]=new int[r1][c1];
+		int b[][]=new int[r1][c1];
+		int c[][]=new int[r1][c1];
+// 		A MATRIX
+		for(int i=0;i<r1;i++)
+		{
+		    for(int j=0;j<c1;j++)
+		    {
+	        a[i][j]=ro.nextInt();
+		    }
+			}
+			
+			
+ 	        
+// 		B MATRIX
+		for(int i=0;i<r1;i++)
+		{
+		for(int j=0;j<c1;j++)
+		{
+	  b[i][j]=ro.nextInt();
+		}
+	    }
+// 	C MATRIX
+	for(int i=0;i<r1;i++)
+		{
+		for(int j=0;j<c1;j++)
+		{
+		    c[i][j]=a[i][j]+b[i][j];
+		}
+		}
+		
+			for(int i=0;i<r1;i++)
+		{
+		for(int j=0;j<c1;j++)
+		{
+	  System.out.print(c[i][j]+" ");
+		}
+		System.out.println(" ");
+	    }
+	}
+}
