@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+
+    public static void main(String[] args) 
+    {
+        Scanner ro=new Scanner(System.in);
+        int size=ro.nextInt();
+        int arr[]=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=ro.nextInt();
+            
+        }
+        int count=0;
+        for(int i=0;i<size;i++)
+        {
+            if(arr[i]>0)
+            {
+                count++;
+              
+            }
+             
+        }
+         
+        int sum=0;
+        for(int i=0;i<size;i++)
+        {
+        if(arr[i]<0)
+            {
+                sum++;
+              
+            }
+             
+        }
+        System.out.printf("Count of Positive Integer is %.2f\n",(float)count);
+        System.out.printf("Count of Negative Integer is %.2f\n",(float)sum);
+    }
+    }
