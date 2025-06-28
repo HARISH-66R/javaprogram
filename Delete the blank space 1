@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution
+{
+
+    public static void main(String[] args) 
+    {
+      Scanner ro=new Scanner(System.in);
+         String s=ro.nextLine();
+        
+       
+        System.out.print(s.replace(" ",""));
+        // char arr[]=s.toCharArray();
+        // for(int i=0;i<arr.length;i++)
+        // {
+        //     if(arr[i]==' ')
+        //     {
+        //         continue;
+        //     }
+        //     else
+        //     {
+        //         System.out.print(arr[i]);
+        //     }
+        }
+        
+    }
