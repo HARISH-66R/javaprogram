@@ -1,0 +1,65 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+
+    public static void main(String[] args)
+    {
+        Scanner ro =new Scanner(System.in);
+        int n=ro.nextInt();
+        
+        if(n<0 || n>10)
+        {
+            System.out.println("Invalid Input");
+        }
+        else
+        {
+            String str="";
+            switch(n)
+            {
+                case 1:
+                    str="One";
+                    break;
+                    
+                    case 2:
+                    str="Two";
+                    break;
+                    
+                    case 3:
+                    str="Three";
+                    break;
+                    
+                    case 4:
+                    str="Four";
+                    break;
+                    
+                    case 5:
+                    str="Five";
+                    break;
+                    
+                    case 6:
+                    str="Six";
+                    break;
+                    
+                    case 7:
+                    str="Seven";
+                    break;
+                    
+                    case 8:
+                    str="Eight";
+                    break;
+                    
+                    case 9:
+                    str="Nine";
+                    break;
+                    
+                    case 0:
+                    str="Zero";
+                    break;
+                    
+            }
+            System.out.println("Integer is "+ n +" and String is "+ str);
+        }
+    }
+}
